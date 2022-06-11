@@ -1,0 +1,33 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.navBody{
+    padding: 0 20px;
+    margin-left: 40px;
+    font-size: 10px;
+    float: left;
+}
+
+a{
+    padding-right: 50px;
+    text-decoration: none;
+    color:#9f9e9e;
+    margin:0;
+
+    
+}
+a:hover{
+    color: #fff;
+}
+.navItems{
+   margin-left: 30px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.on{
+    color: #3CB371;
+}
+.off{
+    color: #B22222;
+}

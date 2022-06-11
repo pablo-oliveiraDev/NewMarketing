@@ -1,0 +1,82 @@
+.displayCadastro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+   
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    background: #F0F8FF;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: 35px;
+ 
+}
+
+.logoForm {
+    background: #00BFFF;
+    width: 500px;
+    height: 100px;
+    color: #fff;
+    justify-content: space-around;
+    
+}
+input{
+    width: 250px;
+   justify-content: space-around;
+   float: left;
+   
+   
+}
+.eyes{
+    float: left;
+    margin-top: 15px;
+    margin-left: -40px;
+}
+label {
+   
+    width: 100px;
+    font-weight: 500;
+    margin-left: 50px;
+    float: left;
+}
+input , label  {
+    margin: 10px;
+}
+.boxSenha{
+    
+    flex-wrap: wrap;
+    height: 60px;
+    align-items: center;
+}
+.link{
+    color: #000;
+    margin: 10px;
+}
+.link:hover{
+    color: #00BFFF;
+}
+@media screen and (max-width:600px) {
+    .cadastro{
+        width: 18rem
+    }
+    .logoForm{
+        width: 18rem;
+    }
+
+    label , input{
+        margin: 0;
+    }
+
+    .eyes{
+        margin-top: 5px;
+        margin-left: 1px;
+    }
+    
+}

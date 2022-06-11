@@ -1,0 +1,17 @@
+.usersStatus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.displayStatus{
+    background: #FFFACD;
+    width: 400px;
+    text-align: left;
+    border: solid 1.5px #000;
+    
+}
+
+.labelCadastrados{
+    margin-left: 80px;
+}

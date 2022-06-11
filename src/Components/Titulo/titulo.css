@@ -1,0 +1,28 @@
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.content span{
+    margin: 0 150px;
+}
+
+.btn-logout {
+    color: #fff;
+    background: #32CD32;
+    border-radius: 10%;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+@media screen and (max-width:600px) {
+    .content span{
+        margin: 0 20px;
+    }
+    
+}

@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a, button{
+  cursor: pointer;
+  text-decoration: none;
+}
